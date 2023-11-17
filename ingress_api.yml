@@ -12,7 +12,7 @@ metadata:
 
 spec:
   rules:
-  - host: ${ENVIRONMENT}${HOST}${DOMINIO}
+  - host: ${ENVIRONMENT}${HOST}
     http:
       paths:
       - path: /
